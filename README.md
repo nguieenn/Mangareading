@@ -38,6 +38,3 @@
 
 4. Theo cấu hình mặc định, môi trường phát triển dùng HTTPS ở cổng `5001`; production dùng HTTP cổng `5000` và có thể dùng biến môi trường `RDS_CONNECTION_STRING`.
 
-## Bảo mật
-
-`appsettings.json`, `.env`, khóa/chứng chỉ và các file build đã được Git ignore. Repository chỉ lưu `appsettings.example.json` với các placeholder.
